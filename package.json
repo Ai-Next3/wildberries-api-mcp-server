@@ -1,0 +1,28 @@
+{
+  "name": "wb-api-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Wildberries API",
+  "main": "wb-api-mcp-server.js",
+  "scripts": {
+    "start": "node wb-api-mcp-server.js",
+    "dev": "nodemon wb-api-mcp-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wildberries",
+    "api",
+    "mcp",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
